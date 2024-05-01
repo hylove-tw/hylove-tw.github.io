@@ -1,7 +1,7 @@
 {
   "name": "brain-analysis",
   "private": true,
-  "version": "1.1.7",
+  "version": "1.2.0",
   "scripts": {
     "dev": "vite",
     "build": "vite build",

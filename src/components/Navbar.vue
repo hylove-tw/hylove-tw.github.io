@@ -55,7 +55,7 @@ const router = useRouter()
 const user = computed(() => store.getters.stateUser)
 const navItems = ref([
     {
-        name: '腦波分析',
+        name: '腦波分析', 
         routeData: { name: 'Home' }
     },
     {
@@ -65,6 +65,10 @@ const navItems = ref([
     {
         name: '雙人音樂',
         routeData: { name: 'DualMusic' }
+    },
+    {
+        name: '社交平台',
+        routeData: { name: 'SocialPlatform' }
     },
     // {
     //     name: '腦波NFT',

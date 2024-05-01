@@ -8,6 +8,7 @@ import store from '../store/index.js'
 import Music from '../pages/Music.vue'
 import DualMusic from '../pages/DualMusic.vue'
 import NFT from '../pages/NFT.vue'
+import SocialPlatform from '../pages/SocialPlatform.vue'
 
 const routes = [
     {
@@ -44,6 +45,11 @@ const routes = [
                 path: '/nft',
                 name: 'NFT',
                 component: NFT
+            },
+            {
+                path: '/social-platform',
+                name: 'SocialPlatform',
+                component: SocialPlatform
             },
             {
                 path: '/about',
